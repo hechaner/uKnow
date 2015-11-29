@@ -148,6 +148,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Brand.cs" />
+    <Compile Include="Models\BrandBrandClassification.cs" />
     <Compile Include="Models\BrandClassification.cs" />
     <Compile Include="Models\BrandType.cs" />
     <Compile Include="Models\Category.cs" />

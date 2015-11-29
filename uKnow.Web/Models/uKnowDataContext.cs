@@ -19,7 +19,32 @@ namespace uKnow.Web.Models
             base.OnModelCreating(modelBuilder);
         }
 
+        public DbSet<Brand> Brands { get; set; }
+
+        public DbSet<BrandBrandClassification> BrandBrandClassifications { get; set; }
+
+        public DbSet<BrandClassification> BrandClassifications { get; set; }
+
+        public DbSet<BrandType> BrandTypes { get; set; }
+
+        public DbSet<Category> Categories { get; set; }   
+
         public DbSet<City> Citise { get; set; }
+
+        public DbSet<Course> Courses { get; set; }
+
         public DbSet<HotCity> HotCities { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
+
+        public DbSet<SearchRcord> SearchRcords { get; set; }
+
+        public DbSet<Teacher> Teachers { get; set; }
+
+        public DbSet<TeacherType> TeacherTypes { get; set; }
+
+
+
+
     }
 }
