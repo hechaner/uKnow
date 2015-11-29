@@ -37,7 +37,7 @@ namespace uKnow.Web.Models
 
         public DbSet<Order> Orders { get; set; }
 
-        public DbSet<SearchRcord> SearchRcords { get; set; }
+        public DbSet<SearchRecord> SearchRecords { get; set; }
 
         public DbSet<Teacher> Teachers { get; set; }
 

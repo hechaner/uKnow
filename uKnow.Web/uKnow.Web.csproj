@@ -156,7 +156,7 @@
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\HotCity.cs" />
     <Compile Include="Models\Order.cs" />
-    <Compile Include="Models\SearchRcord.cs" />
+    <Compile Include="Models\SearchRecord.cs" />
     <Compile Include="Models\Teacher.cs" />
     <Compile Include="Models\TeacherType.cs" />
     <Compile Include="Models\uKnowDataContext.cs" />
