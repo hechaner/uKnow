@@ -1,0 +1,91 @@
+{
+  "next": 0, //分页标记 0 没有下一页，1有下一页
+  "items": [ //品牌分类
+  {
+    "id":1002,
+    "title":"推荐品牌",
+    "style":2, //幻灯片显示类型 最多一个
+    "icon": "http://qiniu.com/uknow/11221.png", //分类icon
+    "items":[{
+      "id": 1000,  //品牌ID
+      "name": "新东方", //品牌名称
+      "text": "在绝望中寻找希望", //品牌题词
+      "type": 0, //0 机构， 1个人
+      "logo": "http://qiniu.com/uknow/11221.png", //品牌的Logo
+      "image": "http://qiniu.com/uknow/11221.png" //品牌宣传图片
+    },
+    {
+      "id": 1010,
+      "name": "李阳",
+      "text": "我一级疯了，请教我疯子",
+      "type": 1, //个人， 专业人士
+      "logo": "http://qiniu.com/uknow/11221.png",
+      "image": "http://qiniu.com/uknow/11221.png"
+    }]
+    },
+    {
+      "id": 100, //一级分类ID
+      "title": "品牌机构", //一级分类名称
+      "style": 1, //显示类型 [0 列表, 1 大图显示，2幻灯片]
+      "icon": "http://qiniu.com/uknow/11221.png", //分类icon
+      "items": [
+        {
+          "id": 1010,
+          "name": "李阳",
+          "text": "我一级疯了，请教我疯子",
+          "type": 1,
+          "logo": "http://qiniu.com/uknow/11221.png",
+          "image": "http://qiniu.com/uknow/11221.png"
+        },
+        {
+          "id": 1010,
+          "name": "李阳",
+          "text": "我一级疯了，请教我疯子",
+          "type": 1,
+          "logo": "http://qiniu.com/uknow/11221.png",
+          "image": "http://qiniu.com/uknow/11221.png"
+        },
+        {
+          "id": 1010,
+          "name": "李阳",
+          "text": "我一级疯了，请教我疯子",
+          "type": 1,
+          "logo": "http://qiniu.com/uknow/11221.png",
+          "image": "http://qiniu.com/uknow/11221.png"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "更多品牌",
+      "style": 0,
+      "icon": "http://qiniu.com/uknow/11221.png",
+      "items": [
+        {
+          "id": 1010,
+          "name": "李阳",
+          "text": "我一级疯了，请教我疯子",
+          "type": 1,
+          "logo": "http://qiniu.com/uknow/11221.png",
+          "image": "http://qiniu.com/uknow/11221.png"
+        },
+        {
+          "id": 1010,
+          "name": "李阳",
+          "text": "我一级疯了，请教我疯子",
+          "type": 1,
+          "logo": "http://qiniu.com/uknow/11221.png",
+          "image": "http://qiniu.com/uknow/11221.png"
+        },
+        {
+          "id": 1010,
+          "name": "李阳",
+          "text": "我一级疯了，请教我疯子",
+          "type": 1,
+          "logo": "http://qiniu.com/uknow/11221.png",
+          "image": "http://qiniu.com/uknow/11221.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "next": 0, //是否有下一页
+  "items": [
+    {
+      "id": 100, //一级分类ID
+      "title": "总裁培训",//一级分类名称
+      "icon": "http://qiniu.com/uknow/11221.png",//一级分类ICON
+      "items": [
+        {
+          "id": 1200,//二级分类ID
+          "name": "融资上市",//二级分类名称
+          "subtitle": "融资上市",//二级分类描述
+          "icon": "http://qiniu.com/uknow/1122.png"//二级分类ICON
+        }
+      ]
+    }
+  ]
+}
